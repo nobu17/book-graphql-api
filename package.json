@@ -1,0 +1,26 @@
+{
+  "name": "book-graphql-api",
+  "version": "1.0.0",
+  "description": "book information GraphQL API for aws lambda",
+  "main": "index.js",
+  "author": "nobuhiro inagawa",
+  "license": "MIT",
+  "scripts": {
+    "ts": "tsc -p tsconfig.json",
+    "build": "sh ./build.sh"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.39",
+    "@types/fast-html-parser": "^1.0.0",
+    "@types/node": "^13.1.2",
+    "@types/request": "^2.48.4",
+    "@types/request-promise": "^4.1.45",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "fast-html-parser": "^1.0.1",
+    "graphql": "^14.5.8",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  }
+}
